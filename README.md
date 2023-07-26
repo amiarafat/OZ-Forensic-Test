@@ -1,0 +1,3 @@
+# OZ-Forensic-Test
+
+Error: onSuccess: [AnalysisResult(resolution=FAILED, type=BIOMETRY, mode=ON_DEVICE, resultMedia=[ResultMedia(resolution=FAILED, type=BIOMETRY, isOnDevice=true, sourceMedia=SourceMedia(ozMedia=OzVideo(tag=Blank, videoPath=/data/user/0/com.muv.oztest/app_oz_video/716ede6e-9b45-4cdc-b7b5-153f4337a08e.mp4, bestShotPath=/data/user/0/com.muv.oztest/app_oz_media/69734cca-33c3-40bf-8503-fd53df56c33f.jpg, preferredMediaPath=null, additionalTags=[]), mediaId=null, mediaType=null, tags=null, originalName=null), confidenceScore=null)], confidenceScore=null, analysisId=null, params={}, error=AnalysisError(message=Media list must consist of at least 2 elements, apiErrorCode=null), serverRawResponse=null)]
