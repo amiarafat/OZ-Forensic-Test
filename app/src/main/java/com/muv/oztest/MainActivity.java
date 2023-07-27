@@ -26,8 +26,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    int OZ_LIVENESS_REQUEST_CODE = 1;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void analyzeMedia(List<OzAbstractMedia> mediaList) {
         new AnalysisRequest.Builder()
-                .addAnalysis(new Analysis(Analysis.Type.BIOMETRY, Analysis.Mode.ON_DEVICE, mediaList, Collections.emptyMap()))
+                .addAnalysis(new Analysis(Analysis.Type.QUALITY, Analysis.Mode.ON_DEVICE, mediaList, Collections.emptyMap()))
                 .build()
                 .run(new AnalysisRequest.AnalysisListener() {
 
